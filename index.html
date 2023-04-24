@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Unofficial Tubby Nugget Page</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header class="header-main">
+            <div class="header-logo">
+                <img src="images/TubbyLogo.png" alt="TubbyNugget Logo">
+        
+            </div>
+
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="index.html" class="nav nav_link">Home</a></li>
+                    <li><a href="products.html"class="nav nav_link">Products</a></li>
+                    <li><a href="contact.html"class="nav nav_link">Contact Us</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+
+        <div class="about-us">
+            <h1>About the Business</h1>
+            <p>Thank you for visiting this page!</p>
+            <!--  -->
+            <p>This business focuses on providing a loving community that wishes to bring joy to everyone with Tubby Nugget comics</p>
+            <p>With the support you provide, there will be more comics and merch to come in the future to bring a smile to all!</p>
+            <p>Please read and watch the comics on TubbyNugget's social media accounts!</p>
+            <!--  -->
+        </div>
+
+
+        <!-- Using Javascript to use a button instead-->
+        <!-- <button id="myButton" class="float-left submit-button" >Official Tubby Nugget Website</button>
+
+        <script type="text/javascript">
+            document.getElementById("myButton").onclick = function () {
+            location.href = "https://www.tubbynugget.com";
+            };
+        </script> -->
+
+
+        <!-- Creating a button using HTML -->
+        <!-- Clicking on the button will redirect user to a different page -->
+        
+    <div class="note">
+        <d1>
+            <dd>PLEASE NOTE:
+            <dd>This is <b>NOT</b> the official website</dd>
+            <dd>Please support the original artists by visiting their page!</dd>
+            <dd><a href="https://www.tubbynugget.com" target=_blank title="This is the link to the official website">
+                <button class="button"> <strong> Click me:</strong> Official Tubby Nugget Website</button>
+                </a>
+            </dd>
+        </d1>
+    </div>
+
+    <button id="button-toggle">Click me for a surprise!</button>
+    <div class="discount-image">
+        <img src="images/TubbyHeart.png" width=100 height=100 alt="Tubby GIF">
+        <p3>Discount: <i>NuggetLove</i></p3>
+        <dd>This is not real by the way!</dd>
+    </div>
+    
+    <!-- Using jQuery to hide/show elements -->
+    <script>
+        $(document).ready(function()
+        {
+            $("#button-toggle").click(function(){
+                $("div.discount-image").toggle();
+            });
+        });
+    </script>
+
+
+
+    </body>
+</html>
